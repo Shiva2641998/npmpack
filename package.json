@@ -1,5 +1,5 @@
 {
-  "name": "shivapackage",
+  "name": "shivampackfirst",
   "version": "0.1.0",
   "private": false,
   "main": "src/index.js",
@@ -12,6 +12,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
