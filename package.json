@@ -1,7 +1,8 @@
 {
   "name": "npmpackage",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1"
   }
 }
